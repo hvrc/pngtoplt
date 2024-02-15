@@ -8,7 +8,7 @@ create a virtual environment, activate it, install cv2 and run the python script
 python main.py "input_file_name.png" "output_file_name.plt"
 ```
 
-tailor made for a client, and contains a hard coded variable for the dimension of the qr code
+tailor made for a client, and contains a hard coded variable for the dimension of tgitghe qr code
 
 adjust the variables in the python script as per your needs...
 
