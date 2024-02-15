@@ -1,30 +1,21 @@
 # pngtoplt
 
-## Info
+Converts a .png file of a qr code into a .plt file
+Tailor made for a client, using it for engraving license plates with qr codes alongside a laser engraver and [HP-GL](https://en.wikipedia.org/wiki/HP-GL).
+Contains a hard coded variable for the dimension of the qr code.
 
-- Converts a .png file of a qr code into a .plt file
-  
-- Tailor made for a client, using it for engraving license plates with qr codes alongside a laser engraver and [HP-GL](https://en.wikipedia.org/wiki/HP-GL).
-
-- Contains a hard coded variable for the dimension of the qr code.
-
-## Using the executables
-
-- Extracting and running the executable starts a process that continuously looks for a .png file being dropped into the executable's folder. 
-
-- When dropped, it deletes the .png and creates a .plt file in it's place. To be used alongside HPGL
-
-## Using the script
+Extracting and running the executable starts a process that continuously looks for a .png file being dropped into the executable's folder. 
+When dropped, it deletes the .png and creates a .plt file in it's place. To be used alongside HPGL
 
 To run it as a script with custom dimensions:
 
-1. Create a virtual environment, activate it, install cv2 and run the python script...
+Create a virtual environment, activate it, install cv2 and run the python script...
 
 ```
 python main.py "input_file_name.png" "output_file_name.plt"
 ```
 
-2. Adjust the variables in the python script as per your needs...
+adjust the variables in the python script as per your needs...
 
 ```
 block_size = 10
