@@ -1,0 +1,5 @@
+1. run the windows batch file called 'run.bat'
+
+2. move the qr code which should be a .png file at the input path defined in config.ini
+
+3. generate a .plt file called 'output.plt' in the output path defined in config.ini
