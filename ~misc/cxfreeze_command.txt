@@ -1,2 +1,0 @@
-cxfreeze your_script.py --target-dir dist
-cxfreeze main.py --path\to\pngtoplt3.0
